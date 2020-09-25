@@ -22,7 +22,7 @@ const fetchMyIP = function(callback) {
 };
 
 const fetchCoordsByIP = (ip, callback) => {
-  const url = 'https://ipvigilante.com/' + ip;
+  const url = `https://ipvigilante.com/${ip}`;
   
   request(url, (error, response, body) => {
     if (error) {

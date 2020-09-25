@@ -1,7 +1,6 @@
 const { nextISSTimesForMyLocation } = require('./iss');
 
 const printTimes = passTimes => {
-  console.log(passTimes);
   for (const times of passTimes) {
     const dateAndTime = new Date(0);
     dateAndTime.setUTCSeconds(times.risetime);
