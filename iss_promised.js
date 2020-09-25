@@ -1,4 +1,3 @@
-const { clear } = require('console');
 const request = require('request-promise-native');
 
 const fetchMyIp = () => {
